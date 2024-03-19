@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input and Display</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+           <div class="nav-logo border">
+                    <div class="logo ">
+                      </div>   
+            </div>
+            <div class="nav-address border">
+                
+                <p class="add-first">Deliver to</p>
+                <div class="addicon">
+                    <i class="fa-solid fa-location-dot"></i> 
+                    <p class="add-second">India</p>
+
+                </div>
+            </div>
+            <div class="navsearch">
+                <select name="" id="" class="search-select">
+                    <option value="">All</option>
+                    <input type="text" placeholder="search amazon" class="search-input">
+                </select>
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="nav-sighin border">
+                <p><span>Hello, Sign in</span></p>
+                <p class="nav-second">Account & Lists</p>
+            </div>
+            <div class="nav-sighin border">
+                <p><span>Returns</span></p>
+                <p class="nav-second">& Orders</p>
+            </div>
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+        </div>
+    </header>
+    <div class="frontPannel">
+    <h1 id="greeting"></h1>
+    <h2 id="username"></h2> 
+    <h1>!</h1>
+    </div>
+    <div class="lastUpdate">
+        <p id="lastUpdated"></p>
+    </div>
+    <div class="herosection">
+        <div class="container1">
+           <h2>OAI Bank's Total Cases</h2>
+            <div class="arrow1">
+                <h1>301</h1> 
+            <i class="fa-solid fa-arrow-right" ></i>
+            </div>
+            <p>15% increase from last month.</p>
+            <div class="howanchor">
+                <a href="#" >How to file cases </a>
+            </div>
+            
+            
+        </div>
+        <div class="container2">
+            <h2>Disputes Resolved</h2>
+            <div class="arrow1">
+                <h1>63</h1> 
+            <i class="fa-solid fa-arrow-right" ></i>
+            </div>
+            <p>10% increase compared to last week.</p>
+            <div class="totalarb">
+                <a href="#"><b>Total</b></a>
+                <a href="#">Con</a>
+                <a href="#"><b>Arb</b></a>
+            </div>
+
+        </div>
+        <div class="container3">
+            <h2>Settlement Rate</h2>
+            <div class="arrow1">
+                <h1>21%</h1> 
+            <i class="fa-solid fa-arrow-right" ></i>
+            </div>
+            <p>0.1% increase compared to last week.</p>
+            <div class="howanchor">
+                <a href="#" >How is this calculated?</a>
+        </div>
+    </div>
+    </div>
+    <div class="main">
+        <div class="container4">
+            <h2>Open Proposals</h2>
+        </div>
+        <div class="container5">
+            <h2>Cases filled over time</h2>
+            <div id="revenueGraph"></div>
+            <div class="minc">
+           <div class="mincontainer1">
+            <p>Average Revolution Time</p>
+            <h2>36</h2>
+            <p>Days</p>
+           </div>
+           <div class="mincontainer2">
+            <p>Total Claim Value</p>
+            <h2>Rs 35 Crores+</h2>
+            <p>Aggregate</p>
+           </div>
+           <div class="mincontainer3">
+            <p> Cost Savings </p>
+            <h2>Rs 10 Crores+</h2>
+            <p>in the last 6 months</p>
+           </div>
+        </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
