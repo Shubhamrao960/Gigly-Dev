@@ -1,5 +1,6 @@
 // import './App.css';
-import './app/assets/css/signup.css'
+import './app/assets/css/signup.css';
+import './app/assets/css/dashboard.css';
 import { BrowserRouter } from "react-router-dom";
 import Router from './routes';
 

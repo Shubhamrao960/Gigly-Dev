@@ -1,8 +1,9 @@
 import { Box, Button, TextField, Typography } from "@mui/material";
 import React, { useState } from "react"
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Register = () => {
+    const navigate = useNavigate();
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -49,6 +50,7 @@ const Register = () => {
         // If no validation errors, submit the form
         if (Object.keys(validationErrors).length === 0) {
             // Submit form logic goes here
+            navigate("/dashboard");
             console.log('Form submitted:', formData);
         }
     };

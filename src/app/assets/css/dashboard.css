@@ -1,0 +1,7 @@
+.MuiPaper-root .MuiToolbar-root div{
+  display: grid;
+}
+.small-caps {
+  font-variant: small-caps;
+  font-size: small;
+}
